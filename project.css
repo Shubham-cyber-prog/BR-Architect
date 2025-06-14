@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+#container{
+    height: 55px;
+    width: 100%;
+    border: 2px solid #f7f7f4;
+    background-color: rgb(247, 247, 244);
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ #container-item {
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    justify-content: space-between;
+    align-items: center;
+ }
+ h1{
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+
+ }
+#container-item {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+#container-item > li {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    padding-right: 0;
+    margin-left: 20px;
+    list-style: none;
+}
+#container-item2{
+    background-image: url(https://coolwallpapers.me/picsup/5214769-building-sky-cloud-skyscraper-exterior-glass-reflection-window-tall-cloudy-architecture-modern-building-facade-looking-up-corner-blue-white-black-city-life-australia-png-images.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;  
+    height: 55vw;
+}
+ #container-item2 h1{
+    align-items: center;
+   position: absolute;
+    top: 40%;
+    left:40%;
+    font-size: 40px;
+    color:rgb(134, 131, 131);
+    font-family: 'Times New Roman', Times, serif;
+   
+
+}
+#Projects{
+    width: 100%;
+    display: grid;
+    padding: 10px;
+
+}
+ img{
+    height: 200px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    object-fit: cover;
+    gap: 5px;
+    padding: 10px;
+}
+#Projects h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+  button{
+    color: #f7f7f4;
+    border-radius:5px;
+  }
+  footer{
+    height:80px;
+    width: 100%;
+    background-color: black;
+    border: 2px solid black ;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  footer h3{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    top: 50px;
+    left: 50%;
+    font-size: 20px;
+  }
+  #actor{
+display: flex;
+gap: 5px;
+height: 90vh;
+width: 100%;
+padding: 10px;
+}
+#actor img{
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+#actor span{
+  font-size: 20px;
+}
+
+input{
+  border: 1px solid rgb(200, 191, 191);
+  width: 100%;
+  padding: 5px;
+
+}
+#background{
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5db717411aee901c0ee36e5d/1583445229209-MSQJPZNE8DU1J8WUAA98/image-asset.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#Contact h2{
+font-size: 30px;
+font-family: 'Times New Roman';
+  }
+  
+  #About h2{
+    font-size: 30px;
+  }
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    #actor img {
+      width: 350px;
+      height: 180px;
+    }
+    img {
+      width: 300px;
+      height: 150px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    #container {
+      height: 65px;
+      flex-direction: column;
+      padding: 10px 0;
+    }
+    #container-item {
+      right: 10px;
+      gap: 15px;
+    }
+    #container-item2 h1 {
+      font-size: 28px;
+      left: 20%;
+      top: 35%;
+    }
+    img {
+      width: 200px;
+      height: 120px;
+    }
+    #actor {
+      flex-direction: column;
+      align-items: center;
+    }
+    #actor img {
+      width: 250px;
+      height: 120px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    #container {
+      height: auto;
+      flex-direction: column;
+      padding: 5px 0;
+    }
+    #container-item {
+      position: static;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      width: 100%;
+      margin-top: 10px;
+    }
+    #container-item > li {
+      font-size: 16px;
+      margin-left: 0;
+      padding: 5px 0;
+    }
+    h1, #container-item2 h1 {
+      font-size: 20px;
+      padding: 5px;
+      left: 10%;
+      top: 30%;
+    }
+    #container-item2 {
+      height: 40vw;
+    }
+    img {
+      width: 100%;
+      height: 100px;
+      padding: 5px;
+    }
+    #Projects {
+      grid-template-columns: 1fr;
+      padding: 5px;
+    }
+    #actor {
+      flex-direction: column;
+      gap: 10px;
+      padding: 5px;
+    }
+    #actor img {
+      width: 100%;
+      height: 100px;
+    }
+    footer {
+      font-size: 14px;
+      height: auto;
+      padding: 10px 0;
+    }
+  }
+
