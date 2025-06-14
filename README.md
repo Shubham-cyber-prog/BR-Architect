@@ -10,7 +10,8 @@ A stylish and responsive architecture portfolio website showcasing modern design
 
 ## 📸 Preview
 
-![BR Architect Website Screenshot](https://user-images.githubusercontent.com/00000000/your-image-link.png) <!-- replace with real image if needed -->
+![BR Architect Website Screenshot](https://github.com/user-attachments/assets/1c8efaf7-733b-4344-948b-d92657d28033)
+<!-- replace with real image if needed -->
 
 ---
 
