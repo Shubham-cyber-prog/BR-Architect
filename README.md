@@ -15,6 +15,21 @@ A stylish and responsive architecture portfolio website showcasing modern design
 
 ---
 
+📁 BR-Architect
+Internship Project | Frontend Development
+
+Description:
+BR-Architect was my first internship project, where I worked on designing and developing a responsive architecture portfolio website. The project focused on implementing a clean UI, professional layout, and mobile-friendly design using HTML, CSS, and Bootstrap.
+
+Key Highlights:
+
+Developed a fully responsive landing page for an architecture firm.
+
+Practiced HTML5 semantics and modern CSS layout techniques.
+
+Improved design sense and learned real-world code structuring.
+
+
 ## ✨ Features
 
 - ✅ Fully responsive layout
